@@ -7,7 +7,7 @@ img {
   margin: 30px auto;
   border-radius: 90%;
   display: block;
-  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact-btn {
@@ -15,7 +15,7 @@ img {
   margin: 0 auto;
   width: 300px;
   border-radius: 100px;
-
+  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2), 0 9px 12px 0 rgba(0, 0, 0, 0.19);
 }
 
 div {
@@ -23,7 +23,12 @@ div {
   margin: 50px auto;
   border-radius: 30px;
   background-image: url("https://media.giphy.com/media/VxbvpfaTTo3le/giphy.gif");
-  background-size: 1700px;
+  background-size: 1750px;
   background-position: center;
   padding: 50px;
+}
+
+footer {
+  text-align: center;
+  color: white;
 }
